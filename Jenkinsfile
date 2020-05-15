@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE_NAME = "XXXXXX/eks-demo-image"
+        DOCKER_IMAGE_NAME = "sivardev19/eks-demo-image"
     }
     stages {
         stage('Build') {
